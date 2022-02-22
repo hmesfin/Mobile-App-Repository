@@ -1,0 +1,209 @@
+name: virtudoc_app
+description: A new Flutter application for VirtuDoc.
+publish_to: "none"
+version: 20.17.0
+
+
+
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  after_layout: ^1.0.7+2
+  auto_size_text: ^2.1.0
+  bubble: ^1.1.9+1
+  cached_network_image: ^2.5.1
+  carousel_slider: ^3.0.0
+  cupertino_icons: ^1.0.0
+  firebase_auth: ^0.18.3+1
+  firebase_core: ^0.5.0+1
+  firebase_messaging: ^7.0.3
+  flutter_datetime_picker: ^1.5.0
+  flutter_launcher_icons: ^0.8.1
+  flutter_local_notifications: ^4.0.1+2
+  flutter_rating_bar: ^3.2.0+1
+  font_awesome_flutter: ^8.12.0
+  geocoder: ^0.2.1
+  http: ^0.12.2
+  image_picker: ^0.6.7+22
+  interval_time_picker: ^0.1.0+1
+  intl: ^0.16.1
+  jiffy: ^3.0.1
+  jitsi_meet: ^2.1.0
+  modal_progress_hud: ^0.1.3
+  pin_code_text_field: ^1.7.1
+  provider: ^4.3.3
+  pull_to_refresh: 1.6.3
+  share: ^0.6.5+4
+  shared_preferences: ^0.5.12+4
+  socket_io_client: ^0.9.12
+  splashscreen: ^1.3.3
+  synchronized: ^2.2.0+2
+  table_calendar: ^2.3.3
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
+  timezone: ^0.6.1
+  country_pickers: ^1.3.0
+  package_info: ^0.4.3+4
+  flutter_webview_plugin: ^0.3.11
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/virtu_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/images/english.png
+    - assets/images/amharic.png
+    - assets/images/bg_header.png
+    - assets/images/2.0x/bg_header.png
+    - assets/images/3.0x/bg_header.png
+
+    - assets/images/ic_back.png
+    - assets/images/2.0x/ic_back.png
+    - assets/images/3.0x/ic_back.png
+
+    - assets/images/ic_doctor.png
+    - assets/images/2.0x/ic_doctor.png
+    - assets/images/3.0x/ic_doctor.png
+
+    - assets/images/ic_patient.png
+    - assets/images/2.0x/ic_patient.png
+    - assets/images/3.0x/ic_patient.png
+
+    - assets/images/ic_drop_down.png
+    - assets/images/2.0x/ic_drop_down.png
+    - assets/images/3.0x/ic_drop_down.png
+
+    - assets/images/ic_phone.png
+    - assets/images/2.0x/ic_phone.png
+    - assets/images/3.0x/ic_phone.png
+
+    - assets/images/ic_password.png
+    - assets/images/2.0x/ic_password.png
+    - assets/images/3.0x/ic_password.png
+
+    - assets/images/ic_fb.png
+    - assets/images/2.0x/ic_fb.png
+    - assets/images/3.0x/ic_fb.png
+
+    - assets/images/ic_g_plus.png
+    - assets/images/2.0x/ic_g_plus.png
+    - assets/images/3.0x/ic_g_plus.png
+
+    - assets/images/ic_apple.png
+    - assets/images/2.0x/ic_apple.png
+    - assets/images/3.0x/ic_apple.png
+
+    - assets/images/ic_password_show.png
+    - assets/images/2.0x/ic_password_show.png
+    - assets/images/3.0x/ic_password_show.png
+
+    - assets/images/ic_password_hide.png
+    - assets/images/2.0x/ic_password_hide.png
+    - assets/images/3.0x/ic_password_hide.png
+
+    - assets/images/bg_vertical_bar.png
+    - assets/images/2.0x/bg_vertical_bar.png
+    - assets/images/3.0x/bg_vertical_bar.png
+
+    - assets/images/ic_calender.png
+    - assets/images/2.0x/ic_calender.png
+    - assets/images/3.0x/ic_calender.png
+
+    - assets/images/ic_drop_down1.png
+    - assets/images/2.0x/ic_drop_down1.png
+    - assets/images/3.0x/ic_drop_down1.png
+
+    - assets/images/ic_weight.png
+    - assets/images/2.0x/ic_weight.png
+    - assets/images/3.0x/ic_weight.png
+
+    - assets/images/ic_height.png
+    - assets/images/2.0x/ic_height.png
+    - assets/images/3.0x/ic_height.png
+
+    - assets/images/ic_gender.png
+    - assets/images/2.0x/ic_gender.png
+    - assets/images/3.0x/ic_gender.png
+
+    - assets/images/bg_header_home.png
+    - assets/images/2.0x/bg_header_home.png
+    - assets/images/3.0x/bg_header_home.png
+
+    - assets/images/ic_camera.png
+    - assets/images/2.0x/ic_camera.png
+    - assets/images/3.0x/ic_camera.png
+
+    - assets/images/ic_appointment.png
+    - assets/images/2.0x/ic_appointment.png
+    - assets/images/3.0x/ic_appointment.png
+
+    - assets/images/ic_availability.png
+    - assets/images/2.0x/ic_availability.png
+    - assets/images/3.0x/ic_availability.png
+
+    - assets/images/ic_documents.png
+    - assets/images/2.0x/ic_documents.png
+    - assets/images/3.0x/ic_documents.png
+
+    - assets/images/ic_feedback.png
+    - assets/images/2.0x/ic_feedback.png
+    - assets/images/3.0x/ic_feedback.png
+
+    - assets/images/ic_finance.png
+    - assets/images/2.0x/ic_finance.png
+    - assets/images/3.0x/ic_finance.png
+
+    - assets/images/ic_profile.png
+    - assets/images/2.0x/ic_profile.png
+    - assets/images/3.0x/ic_profile.png
+    - assets/images/
+
+    - assets/images/ic_right_arrow.png
+    - assets/images/2.0x/ic_right_arrow.png
+    - assets/images/3.0x/ic_right_arrow.png
+
+    - assets/images/alert.png
+    - assets/images/2.0x/alert.png
+    - assets/images/3.0x/alert.png
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto-Black.ttf
+        - asset: assets/fonts/Roboto-Bold.ttf
+        - asset: assets/fonts/Roboto-Light.ttf
+        - asset: assets/fonts/Roboto-Medium.ttf
+        - asset: assets/fonts/Roboto-Regular.ttf
